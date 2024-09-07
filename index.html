@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stonks with Rasul</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+    <!-- Navbar for links -->
+     <nav id = "navBar">
+        <h1>Home</h1>
+        <h1>Login</h1>
+     </nav>
+
+    <div id = "wholeDiv">
+        <!-- Left half of the screen -->
+        <div id = "nonGraphDiv">
+            <!-- User input box -->
+            <form id = "tickerSection">
+                <input type = "text" id = "tickerInput" placeholder= "Ex: NFLX">
+                <button id = "submitTickerBtn">Submit</button>
+            </form>
+        </div>
+
+        
+        <!-- Right half of the screen -->
+        <div id = "graphDiv">
+        </div>
+    </div>
+     
+
+
+     <!-- Source tag -->
+      <script src = "script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
